@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */ 
+.mainContainer{ 
+	text-align:center;
+	width:500px; 
+	margin:0px auto; 
+}
+.box1,.box2,.box3 { 
+   background: #ffffff;  
+   padding:40px; 
+   color:#000000;
+   font-size:20px;
+   margin:0px 15px;
+   display:inline-block;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+	box-shadow: 8px 8px 10px #333333;
+	-webkit-box-shadow: 8px 8px 10px #333333;
+	-moz-box-shadow: 8px 8px 10px #333333; 
+} 
+
+.box1{
+	background: -moz-linear-gradient(0deg, #FF0000 0%, #117809 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #FF0000), color-stop(100%, #117809)); 
+	background: -webkit-linear-gradient(0deg, #FF0000 0%, #117809 100%); 
+	background: -o-linear-gradient(0deg, #FF0000 0%, #117809 100%); 
+	background: -ms-linear-gradient(0deg, #FF0000 0%, #117809 100%); /* ie10+ */
+	background: linear-gradient(90deg, #FF0000 0%, #117809 100%); /* All Browser */ 
+}
+.box2{ 
+    
+    background: -webkit-radial-gradient(50% 10%, circle, red, yellow, green); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(50% 10%, circle, red, yellow, green); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(50% 10%, circle, red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(50% 10%, circle, red, yellow, green); /* Standard syntax (must be last) */
+}
+.box3{ 
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(53% -25% , farthest-corner, red, yellow, green); /* Safari */
+  background: -o-radial-gradient(53% -25% , farthest-corner, red, yellow, green); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(53% -25% , farthest-corner, red, yellow, green); /* Firefox 3.6 to 15 */
+  background: radial-gradient(53% -25% , farthest-corner, red, yellow, green); /* Standard syntax */
+}
